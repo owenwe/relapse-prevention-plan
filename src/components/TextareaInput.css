@@ -1,0 +1,6 @@
+.textarea-input-container textarea {
+    width: 100%;
+    min-height: 6rem;
+    resize: none !important;
+    overflow: scroll;
+}

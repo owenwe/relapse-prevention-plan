@@ -1,0 +1,22 @@
+.multi-number-output-container {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+.multi-number-output-question-container {
+    margin-bottom: 1rem;
+}
+.multi-number-output-question {
+    color: #777;
+    border-bottom: solid #ccc 1px;
+}
+.multi-number-output-value {
+    padding-top: .25rem;
+    padding-left: 3rem;
+    font-size: 1.125rem;
+}
+
+@media print {
+    .multi-number-output-container {
+        page-break-inside: avoid;
+    }
+}

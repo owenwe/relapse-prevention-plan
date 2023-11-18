@@ -1,0 +1,13 @@
+.mni-question {
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+}
+.mni-question input {
+    text-align: right;
+    border: solid #777 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding: 5px 10px;
+}

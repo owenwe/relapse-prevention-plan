@@ -1,0 +1,31 @@
+.meeting-output-container {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+.meeting-output-description {
+    color: #777;
+    border-bottom: solid #ccc 1px;
+}
+.meeting-output-values {
+    width: 100%;
+    margin-top: .25rem;
+    padding-left: 2rem;
+    font-size: 1.125rem;
+}
+.meeting-output-values thead tr {
+
+}
+.meeting-output-values thead tr th {
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+.meeting-output-values tbody tr td {
+    border: solid #ccc 1px;
+    text-align: center;
+}
+
+@media print {
+    .meeting-output-container {
+        page-break-inside: avoid;
+    }
+}

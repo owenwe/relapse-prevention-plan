@@ -1,0 +1,15 @@
+.checkbox-list-container {}
+.checkbox-list-container input[type=checkbox] {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.cbl-option-container span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cbl-blank-container, .cbl-option-container {
+    margin-bottom: .15rem;
+}

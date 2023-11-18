@@ -1,0 +1,44 @@
+.meeting-container {
+    resize: none;
+}
+.meeting-values-view button {
+    margin-top: 1rem;
+}
+.mvv-meeting-container {
+    display: grid;
+    grid-template-columns: 10% 25% 25% auto;
+    border-left: solid #ccc 1px;
+    border-right: solid #ccc 1px;
+    border-bottom: solid #ccc 1px;
+}
+.remove-meeting-details {
+    list-style-type: none;
+}
+.mvv-meeting-container-header {
+    display: grid;
+    grid-template-columns: 10% 25% 25% auto;
+    border: solid black 1px;
+}
+.mvv-header {
+    font-weight: bold;
+    text-align: center;
+    border-right: solid #ccc 1px;
+}
+.mvv-item {
+    text-align: center;
+}
+.mvv-action {
+    border-right: solid #ccc 1px;
+    padding-left: 1rem;
+}
+.mvv-meeting {
+    border-right: solid #ccc 1px;
+}
+.mvv-date {
+    border-right: solid #ccc 1px;
+}
+.mvv-location {}
+
+.meeting-input-container {
+    margin-top: 1rem;
+}
